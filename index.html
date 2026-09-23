@@ -211,6 +211,11 @@
             background: #f6f1e8;
             padding: 35px;
             border-radius: 22px;
+
+            /* Visible box */
+            border: 1px solid #ddd0c0;
+            box-shadow: 0 6px 18px rgba(61, 43, 32, 0.06);
+
             transition: 0.3s ease;
         }
 
@@ -275,7 +280,7 @@
         }
 
         /* FINAL COMPACT SIZE
-           Financial & Seminary photos */
+           Financial & Seminary */
         .financial-gallery .experience-photo,
         .seminary-gallery .experience-photo {
             aspect-ratio: 4 / 3;
@@ -292,7 +297,10 @@
             object-fit: cover;
         }
 
-        /* Missionary gallery */
+        /* =========================
+           MISSIONARY GALLERY
+        ========================= */
+
         .missionary-gallery {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -313,7 +321,10 @@
             object-fit: cover;
         }
 
-        /* Maintenance */
+        /* =========================
+           MAINTENANCE
+        ========================= */
+
         .maintenance-photo {
             max-width: 900px;
             height: 420px;
@@ -510,9 +521,8 @@
             }
         }
 
-        /* IMPORTANT:
-           Only the image zooms.
-           The photo frame itself NEVER changes size. */
+        /* Only the image zooms.
+           The photo frame does not change size. */
         @keyframes photoZoom {
             from {
                 transform: scale(1.06);
@@ -637,6 +647,7 @@
         }
 
         @media (prefers-reduced-motion: reduce) {
+
             html {
                 scroll-behavior: auto;
             }
@@ -659,6 +670,7 @@
     ========================= -->
 
     <nav>
+
         <div class="nav-container">
 
             <div class="logo">
@@ -675,6 +687,7 @@
             </ul>
 
         </div>
+
     </nav>
 
 
@@ -793,38 +806,67 @@
             <div class="services-grid">
 
                 <div class="service-card">
-                    <h3>Financial Support</h3>
+
+                    <h3>
+                        Financial Support
+                    </h3>
+
                     <p>
                         I can help keep financial information organized and accurate through transaction tracking, budget monitoring, reconciliation, and documentation.
                     </p>
+
                 </div>
 
+
                 <div class="service-card">
-                    <h3>Data & Reporting</h3>
+
+                    <h3>
+                        Data & Reporting
+                    </h3>
+
                     <p>
                         Comfortable working with Microsoft Excel and Power BI to organize information, maintain records, and support reporting.
                     </p>
+
                 </div>
 
+
                 <div class="service-card">
-                    <h3>Administrative Support</h3>
+
+                    <h3>
+                        Administrative Support
+                    </h3>
+
                     <p>
                         From scheduling and email management to documentation and coordination, I can help keep day-to-day operations running smoothly.
                     </p>
+
                 </div>
 
+
                 <div class="service-card">
-                    <h3>Customer Support</h3>
+
+                    <h3>
+                        Customer Support
+                    </h3>
+
                     <p>
                         Clear communication and a professional approach help me handle customer concerns and work effectively with different people.
                     </p>
+
                 </div>
 
+
                 <div class="service-card">
-                    <h3>Detail-Focused Work</h3>
+
+                    <h3>
+                        Detail-Focused Work
+                    </h3>
+
                     <p>
                         I pay attention to the small things, especially when working with records, confidential information, and tasks where accuracy matters.
                     </p>
+
                 </div>
 
             </div>
@@ -847,7 +889,7 @@
             </h2>
 
 
-            <!-- FINANCIAL -->
+            <!-- FINANCIAL & ADMINISTRATIVE -->
 
             <div class="experience-item">
 
@@ -961,7 +1003,7 @@
             </div>
 
 
-            <!-- MAINTENANCE -->
+            <!-- BUILDING MAINTENANCE -->
 
             <div class="experience-item">
 
@@ -1066,7 +1108,7 @@
 
 
     <!-- =========================
-         SKILLS
+         SKILLS & TOOLS
     ========================= -->
 
     <section id="skills">
@@ -1084,6 +1126,7 @@
 
             <div class="skills-grid">
 
+
                 <!-- FINANCIAL & DATA -->
 
                 <div class="skill-card">
@@ -1093,31 +1136,54 @@
                     </h3>
 
                     <div class="skill-item">
-                        <strong>Microsoft Excel</strong>
+
+                        <strong>
+                            Microsoft Excel
+                        </strong>
+
                         <p>
                             Used for organizing data, tracking transactions, monitoring budgets, and maintaining accurate records.
                         </p>
+
                     </div>
 
+
                     <div class="skill-item">
-                        <strong>Power BI</strong>
+
+                        <strong>
+                            Power BI
+                        </strong>
+
                         <p>
                             Used to organize and present information in a clear and useful way for reporting and analysis.
                         </p>
+
                     </div>
 
+
                     <div class="skill-item">
-                        <strong>Data Entry & Documentation</strong>
+
+                        <strong>
+                            Data Entry & Documentation
+                        </strong>
+
                         <p>
                             Comfortable maintaining records carefully and keeping information organized and up to date.
                         </p>
+
                     </div>
 
+
                     <div class="skill-item">
-                        <strong>Confidentiality</strong>
+
+                        <strong>
+                            Confidentiality
+                        </strong>
+
                         <p>
                             Understands the importance of handling financial and customer information responsibly.
                         </p>
+
                     </div>
 
                 </div>
@@ -1132,31 +1198,54 @@
                     </h3>
 
                     <div class="skill-item">
-                        <strong>Email & Calendar Management</strong>
+
+                        <strong>
+                            Email & Calendar Management
+                        </strong>
+
                         <p>
                             Can manage schedules, correspondence, appointments, and day-to-day coordination.
                         </p>
+
                     </div>
 
+
                     <div class="skill-item">
-                        <strong>Customer Service</strong>
+
+                        <strong>
+                            Customer Service
+                        </strong>
+
                         <p>
                             Communicates professionally and works to understand and respond to customer concerns.
                         </p>
+
                     </div>
 
+
                     <div class="skill-item">
-                        <strong>Communication</strong>
+
+                        <strong>
+                            Communication
+                        </strong>
+
                         <p>
                             Comfortable communicating with different people and adapting communication to the situation.
                         </p>
+
                     </div>
 
+
                     <div class="skill-item">
-                        <strong>Negotiation</strong>
+
+                        <strong>
+                            Negotiation
+                        </strong>
+
                         <p>
                             Uses clear communication and a practical approach when working through different needs and situations.
                         </p>
+
                     </div>
 
                 </div>
@@ -1171,31 +1260,54 @@
                     </h3>
 
                     <div class="skill-item">
-                        <strong>Problem-Solving & Adaptability</strong>
+
+                        <strong>
+                            Problem-Solving & Adaptability
+                        </strong>
+
                         <p>
                             Able to adjust plans and respond to changing situations while keeping responsibilities on track.
                         </p>
+
                     </div>
 
+
                     <div class="skill-item">
-                        <strong>Time Management & Organization</strong>
+
+                        <strong>
+                            Time Management & Organization
+                        </strong>
+
                         <p>
                             Experienced in managing schedules, priorities, and multiple responsibilities.
                         </p>
+
                     </div>
 
+
                     <div class="skill-item">
-                        <strong>Teamwork & Collaboration</strong>
+
+                        <strong>
+                            Teamwork & Collaboration
+                        </strong>
+
                         <p>
                             Works effectively with others and contributes to shared goals and responsibilities.
                         </p>
+
                     </div>
 
+
                     <div class="skill-item">
-                        <strong>Multitasking & Prioritization</strong>
+
+                        <strong>
+                            Multitasking & Prioritization
+                        </strong>
+
                         <p>
                             Comfortable handling multiple tasks while identifying what needs attention first.
                         </p>
+
                     </div>
 
                 </div>
@@ -1229,24 +1341,41 @@
                 <div class="contact-details">
 
                     <div>
-                        <strong>Email</strong>
+
+                        <strong>
+                            Email
+                        </strong>
+
                         <a href="mailto:kenth.manuel11@gmail.com">
                             kenth.manuel11@gmail.com
                         </a>
+
                     </div>
 
+
                     <div>
-                        <strong>Phone</strong>
+
+                        <strong>
+                            Phone
+                        </strong>
+
                         <span>
                             09481226494
                         </span>
+
                     </div>
 
+
                     <div>
-                        <strong>Location</strong>
+
+                        <strong>
+                            Location
+                        </strong>
+
                         <span>
                             Dagupan City, Philippines
                         </span>
+
                     </div>
 
                 </div>
@@ -1263,7 +1392,9 @@
     ========================= -->
 
     <footer>
+
         © 2026 Kenth Manuel. All rights reserved.
+
     </footer>
 
 
@@ -1301,24 +1432,6 @@
             void element.offsetWidth;
 
             element.classList.add(className);
-        }
-
-
-        function restartMultiple(elements, className) {
-
-            elements.forEach(element => {
-
-                element.classList.remove(className);
-
-            });
-
-            void document.body.offsetWidth;
-
-            elements.forEach(element => {
-
-                element.classList.add(className);
-
-            });
 
         }
 
@@ -1326,6 +1439,7 @@
         function playHome() {
 
             restartAnimation(homeText, "home-play");
+
             restartAnimation(homePhoto, "home-photo-play");
 
         }
@@ -1334,6 +1448,7 @@
         function playStory() {
 
             restartAnimation(storyText, "story-left");
+
             restartAnimation(storyImage, "story-right");
 
         }
@@ -1452,8 +1567,6 @@
         }
 
 
-        /* Play Home when the page first loads */
-
         window.addEventListener("load", () => {
 
             playHome();
@@ -1461,14 +1574,13 @@
         });
 
 
-        /* Replay the correct animation every time
-           a navigation link is clicked */
-
         document.querySelectorAll(".nav-links a").forEach(link => {
 
             link.addEventListener("click", () => {
 
-                const sectionId = link.getAttribute("href").replace("#", "");
+                const sectionId = link
+                    .getAttribute("href")
+                    .replace("#", "");
 
                 setTimeout(() => {
 
